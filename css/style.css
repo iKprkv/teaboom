@@ -272,4 +272,8 @@
         .product__info {
             gap: 10px;
         }
+
+        .product__add-to-cart {
+            max-width: 100%;
+        }
     }

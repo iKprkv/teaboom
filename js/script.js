@@ -54,11 +54,8 @@
     item
       .querySelector(".product__add-to-cart")
       ?.addEventListener("click", () => {
-        const active = getActiveButton();
         console.log("В корзину:", {
-          weight: active?.dataset.weight,
-          sku: sku.textContent,
-          price: price.textContent,
+          sku: sku.textContent
         });
       });
 
